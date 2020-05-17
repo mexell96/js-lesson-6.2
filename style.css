@@ -1,9 +1,11 @@
 body {
     width: 100vw;
     height: 100vh;
-    font-weight: 100;
+    
 }
 .beader {
     font-weight: bold;
 }
-
+ul.class1 {
+    font-weight: 100;
+}
