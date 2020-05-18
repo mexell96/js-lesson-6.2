@@ -11,4 +11,22 @@ lishki.addEventListener('click', function (ev) {
    }
 });
 
+const pop = document.getElementsByTagName('li');
 
+
+const veader = document.getElementById('veader');
+veader.addEventListener('click', function (header) {
+   if (header.target.nodeName !== "LI") {
+      for (let i = 0; i < pop.length; i++) {
+         pop[i].classList.remove('beader');
+      }
+   }
+});
+
+
+
+lishki.addEventListener('click', function (ev) {
+    if (ev.target.nodeName === 'LI') {
+    alert(ev.target.innerText);
+    }
+});
