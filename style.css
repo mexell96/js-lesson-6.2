@@ -9,3 +9,7 @@ body {
 ul {
     font-weight: 100;
 }
+li {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
