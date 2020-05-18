@@ -26,7 +26,10 @@ veader.addEventListener('click', function (header) {
 
 
 lishki.addEventListener('click', function (ev) {
-    if (ev.target.nodeName === 'LI') {
-    alert(ev.target.innerText);
-    }
+   if (ev.target.nodeName === 'LI') {
+      let wer = ev.target; 
+      let fyt = wer.firstChild;
+      console.log(fyt);
+   }
 });
+
