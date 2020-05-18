@@ -28,6 +28,7 @@ lishki.addEventListener('click', function (ev) {
    if (ev.target.nodeName === 'LI') {
       let wer = ev.target; 
       let fyt = wer.firstChild;
-      console.log(fyt);
+      let rev = fyt.textContent;
+      alert(rev);
    }
 });
